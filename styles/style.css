@@ -25,7 +25,7 @@ body{
 
 .nav-container{
     /* border: 2px solid blueviolet; */
-    min-height: 20px;
+    min-height: 40px;
     display: flex;
     align-items: center;
     width: 50%;
@@ -348,14 +348,34 @@ footer{
 
   /* mobile device */
 @media screen and (max-width:600px){
-   .header-section{
-    max-width: 1170px;
+  .header-section{
     flex-direction: column;
-    margin: 0 auto;
-    
-       
-    
-   } 
+    margin-left: 60px;
 
-} 
-     
+    } 
+    .items-container{
+        flex-direction: column;
+        margin-left: 60px;
+        gap:20px;
+    }
+    .banner{
+        flex-direction: column;
+
+       
+    } 
+    .banner-text-item{
+        flex-direction: column;
+    }
+.banner-text-item h2 {
+    flex-direction: column;
+    }
+    .features-section{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+}    
