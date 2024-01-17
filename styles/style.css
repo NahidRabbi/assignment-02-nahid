@@ -378,4 +378,14 @@ footer{
     .card-container{
         flex-direction: column;
     }
+    .card-3{
+        margin-left:20px;
+        margin-top: 20px;
+        width: 573px;
+        height: 284px;
+        flex-shrink: 0;
+        padding: 10px;
+        border-radius: 16px; 
+       
+    }
 }    
